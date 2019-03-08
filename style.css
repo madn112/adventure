@@ -137,3 +137,12 @@ width: 400px;
   background: url(images/inninterior.jpg) no-repeat;
   background-size: cover;
 }
+
+.meadhall-body{ 
+  background: url(images/mead-hall.jpg) no-repeat;
+  background-size: cover;
+}
+
+.bold{
+  font-weight: bolder;
+}

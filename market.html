@@ -1,0 +1,112 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body class="village-body">
+    <div class="text-background">
+      <h1 class="wrong-way">Village of Caeperna Market</h1>
+      <p class="adventurer">
+        As you walk with Onthalla she asks "Do you think Markus is a bit
+        overbearing?" You reply with a shrug of indifference, "Well I think that
+        he can be a bit overbearing when it comes to rest, what with his always
+        just grabbing the nearest bed and falling down in it."
+      </p>
+      <p class="brook">
+        Again you shrug indifferently but then speak, "Well I guess he just
+        needs his beauty rest." Onthalla laughs at this she then returns to her
+        usual stoic demeanor.
+      </p>
+      <p class="brook">
+        She looks at you thoughtfully and then turns around to see Markus
+        standing there. "Eep" shrieks Onthalla "Markus what are you doing here"
+        Markus replies, "Looking for you two. I met with the village elder and
+        he says they have been having a goblin problem I will head out and just
+        stand guard at the village entrance and wait for you two to find food
+        then find the inn."
+      </p>
+      <h3 class="brook">
+        <strong>You find the Market but it's really huge.</strong>
+      </h3>
+      <p class="brook">
+        It almost looks like the bazaars of
+        <span class="country">Aderisa</span>. You and Onthalla look around and
+        find a good market stall, "Hello My good stallkeep." you start out as
+        you look down and see a Tiefling. "The name's Zekaria" she spits out
+        "What do you want." Onthalla replies "Just some meats and fruits ma'am."
+        The tiefling looks up at her and says "That'll be 15 gold pieces." You
+        grab the coin pouch and count out 14 gold pieces and 5 silver pieces.
+        "Here you go!" Zekarias demeanor changed from pissy to cheerful in a
+        split second but without a moments hesitation Onthalla grabs your arm in
+        hers and the two of you head out to find and inn.
+      </p>
+
+      <div class="flex-container">
+        <a class="back" href="inn2.html">Go with Onthalla to find an Inn</a>
+      </div>
+    </div>
+    <div id="modal" class="modal-content">
+      <button type="button" id="close-modal" class="button close-button" >X</button>
+      <h1>The Country of Aderisa</h1>
+      <p>
+        The Country of Aderisa is on the Southern Borders of Aderitrem of which
+        it broke off from.
+      </p>
+      <ul>
+        <li>Castles</li>
+        <li>Cities</li>
+        <li>Towns</li>
+        <li>Villages</li>
+      </ul>
+      <h3>Castles</h3>
+      <p>
+        There are various castles amongst the Kingdom of Aderisa the famous of
+        which is Fortress Cainfield when in 243 B.G. (Before Gunpowder) the
+        battle of Cainfield took place between the forces of Cain and his
+        soldiers of Aderisa and Abel and his soldiers of Aderitrem. Abel who was
+        the military commander of the Aderitrem was trying to put down the
+        rebellion started by his brother Cain. During the Battle an arrow loosed
+        by Cain struck Abel in the heart and he died there instantly. Upon
+        seeing their commander fall in battle the forces of the Aderitrem routed
+        and fell back all the way to the capital of Aldwald.
+      </p>
+      <ol>
+        <li>Fortress Cainfield</li>
+        <li>Castle Whitstone</li>
+        <li>Castle Cambolton</li>
+        <li>Castle Earlington</li>
+      </ol>
+      <p>
+        The Cities of Aderisa are as old as
+        <span class="Country">Morspell</span> or at least thats what the Orcs of
+        Wolfhollow Forest will tell you. The most famous city is the Capital and
+        it is also the largest named after the leader of the Aderisian Rebellion
+        the City of Cainlide brings the whole country to life with it's
+        magnificent architecture.
+      </p>
+      <ol>
+        <li>City of Cainlide</li>
+        <li>City of Violetwinter</li>
+        <li>City of Meadowbell</li>
+        <li>City of Morwynne</li>
+      </ol>
+    </div>
+    <script type="text/javascript">
+      var opener = document.querySelector(".country");
+      var modal = document.querySelector('#modal');
+      var closer = document.querySelector('#close-modal');
+
+      opener.addEventListener("click", function() {
+        modal.classList.toggle("show-modal");
+      });
+
+      closer.addEventListener('click', function() {
+        modal.classList.toggle('show-modal');
+      })
+
+    </script>
+  </body>
+</html>

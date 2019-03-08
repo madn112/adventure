@@ -1,0 +1,139 @@
+
+
+.text-background {
+  background: rgba(0,0,0,.5);
+  border-radius: 20px;
+  padding: 15px;
+  position: relative;
+}
+.wrong-way {
+color: palegoldenrod;
+padding-bottom: 10px;
+margin-left: 10px;
+margin-top: 20px;
+font-size: 64pt;
+font-family: cursive;
+}
+
+.adventurer {
+color: floralwhite;
+font-size: 30pt;
+font-family: cursive;  
+}
+
+.brook{
+color: floralwhite;
+font-size: 24pt;
+padding-bottom: 20px;
+margin-bottom: 10px;
+font-family: cursive;  
+}
+
+.image {
+width: 400px;
+}
+
+.back{
+  font-size: 32px;
+  color: palegoldenrod;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.back:hover {
+  color: #ffffff;
+}
+
+.skeleton {
+  width: 300px;
+  display: block;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  animation: appearing 5s forwards;
+  border-radius: 25px;
+}
+.country{
+  font-weight: bold;
+  color: goldenrod
+}
+
+@keyframes appearing {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  display: none;
+  width: 80%;
+  background: #ffffff;
+  border-radius: 25px;
+  padding: 25px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 25px;
+  z-index: 10;
+}
+
+.button {
+  background: transparent;
+  color: black;
+  border: none;
+  font-size: 24px;
+}
+
+.close-button {
+  float: right;
+}
+
+.show-modal {
+  display: block;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.river-body {
+  background: url(images/river.JPG) no-repeat;
+  background-size: cover;
+}
+
+.stream-body {
+  background: url(images/Silk_Stream_in_Silkstream_Park.jpg) no-repeat;
+  background-size: cover;
+}
+
+.clearing-body{
+  background: url(images/clearing.jpg) no-repeat;
+  background-size: cover;
+}
+
+.forest-body{
+  background: url(images/forest.jpg) no-repeat;
+  background-size: cover;
+}
+.path-body{
+  background: url(images/path.jpg) no-repeat;
+  background-size: cover;
+}
+.village-body{
+  position: relative;
+  background: url(images/village8.jpg) no-repeat;
+  background-size: cover;
+}
+.villagegate-body{
+  background: url(images/villagegate.png) no-repeat;
+  background-size: cover;
+}
+.inn-body{
+  background: url(images/inninterior.jpg) no-repeat;
+  background-size: cover;
+}

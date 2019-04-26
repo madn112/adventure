@@ -147,9 +147,45 @@ width: 400px;
   font-weight: bolder;
 }
 .companion{
-  height: 25px;
+  width: 300px;
   padding: 10px;
-  border-radius: 500px;
+  border-radius: 50px;
   display: block;
   position: absolute;
 }
+.soldier{
+  float: left;
+  padding: 10px;
+  width: 300px;
+  border-radius: 50px;
+  display: block;
+  position: absolute;
+}
+.town-body{
+  background: url(images/town-body.jpg) no-repeat;
+  background-size: cover;
+}
+.hall-body{
+  background: url(images/townhall.jpeg) no-repeat;
+  background-size: cover;
+}
+.city-body{
+  background: url(images/imperialcity.png) no-repeat;
+  background-size: cover;
+}
+.flag{
+  width: 400px;
+  padding: 10px;
+  border-radius: 30px;
+  display: block;
+  position: absolute;
+}
+.armory-body{
+  background: url(images/armory.jpg) no-repeat;
+  background-size: cover;
+}
+.castle-body{
+  background: url(images/evilcastle.jpg) no-repeat;
+  background-size: cover;
+}
+
